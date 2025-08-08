@@ -1,4 +1,4 @@
-# ChromaDB 仪表板
+# ChromaDB Dashboard
 
 <p align="center">
   <strong>一个为 ChromaDB 设计的现代化、直观的可视化管理面板。</strong>
@@ -10,7 +10,13 @@
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/oGYCo/ChromaDB-Dashboard?style=social">
   <img alt="License" src="https://img.shields.io/github/license/oGYCo/ChromaDB-Dashboard">
 </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+</p>
 ---
 
 ChromaDB 仪表板提供了一个美观且用户友好的界面，用于与您的 ChromaDB 实例进行交互。它采用现代技术栈构建，简化了集合和文档管理、向量搜索等操作。
@@ -20,7 +26,7 @@ ChromaDB 仪表板提供了一个美观且用户友好的界面，用于与您�
 - **现代化用户界面**: 使用 Next.js 14 和 Tailwind CSS 构建的流畅响应式设计。
 - **集合管理**: 轻松创建、查看和删除集合。
 - **文档处理**: 添加、检查和删除带有元数据的文档。
-- **向量搜索**: 对您的数据执行强大的语义搜索。
+- **元数据过滤**: 通过元数据过滤您的数据文档。
 - **实时洞察**: 实时连接状态和自动数据刷新。
 - **主题切换**: 根据您的喜好在亮色和暗色模式之间切换。
 
