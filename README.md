@@ -1,5 +1,7 @@
 <h1 align="center">ChromaDB Dashboard</h1>
 
+![alt text](image.png)
+
 <p align="center">
   <strong>一个为 ChromaDB 设计的现代化、直观的可视化管理面板。</strong>
 </p>
