@@ -1,22 +1,22 @@
-# ChromaDB Dashboard
+<h1 align="center">ChromaDB Dashboard</h1>
 
 <p align="center">
   <strong>一个为 ChromaDB 设计的现代化、直观的可视化管理面板。</strong>
 </p>
 
 <p align="center">
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/oGYCo/ChromaDB-Dashboard">
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/oGYCo/ChromaDB-Dashboard?style=social">
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/oGYCo/ChromaDB-Dashboard?style=social">
   <img alt="License" src="https://img.shields.io/github/license/oGYCo/ChromaDB-Dashboard">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
 </p>
+
 ---
 
 ChromaDB 仪表板提供了一个美观且用户友好的界面，用于与您的 ChromaDB 实例进行交互。它采用现代技术栈构建，简化了集合和文档管理、向量搜索等操作。
