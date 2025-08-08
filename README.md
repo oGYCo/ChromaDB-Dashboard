@@ -66,7 +66,7 @@ cd ChromaDB-Dashboard
 
 # 启动后端 (在 backend/ 目录)
 cd backend
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/Scripts/activate  # Windows (Git Bash): source venv/Scripts/activate
 uvicorn main:app --reload --port 8080
 
 # 启动前端 (在 frontend/ 目录)
