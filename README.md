@@ -3,7 +3,7 @@
 ![alt text](image.png)
 
 <p align="center">
-  <strong>一个为 ChromaDB 设计的现代化、直观的可视化管理面板。</strong>
+  <strong>A modern and intuitive visual management panel for ChromaDB.</strong>
 </p>
 
 <p align="center">
@@ -21,67 +21,67 @@
 
 ---
 
-ChromaDB 仪表板提供了一个美观且用户友好的界面，用于与您的 ChromaDB 实例进行交互。它采用现代技术栈构建，简化了集合和文档管理、向量搜索等操作。
+ChromaDB Dashboard provides a beautiful and user-friendly interface for interacting with your ChromaDB instances. Built with a modern tech stack, it simplifies collection and document management, metadata filtering, and more.
 
-## ✨ 主要功能
+## ✨ Key Features
 
-- **现代化用户界面**: 使用 Next.js 14 和 Tailwind CSS 构建的流畅响应式设计。
-- **集合管理**: 轻松创建、查看和删除集合。
-- **文档处理**: 添加、检查和删除带有元数据的文档。
-- **元数据过滤**: 通过元数据过滤您的数据文档。
-- **实时洞察**: 实时连接状态和自动数据刷新。
-- **主题切换**: 根据您的喜好在亮色和暗色模式之间切换。
+- **Modern UI**: A fluid and responsive design built with Next.js 14 and Tailwind CSS.
+- **Collection Management**: Easily create, view, and delete collections.
+- **Document Handling**: Add, inspect, and delete documents with metadata.
+- **Metadata Filtering**: Filter your documents by their metadata.
+- **Real-time Insights**: Live connection status and automatic data refresh.
+- **Theme Toggling**: Switch between light and dark modes to suit your preference.
 
-## 🛠️ 技术栈
+## 🛠️ Tech Stack
 
-- **前端**: [Next.js](https://nextjs.org/) 14, [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)
-- **后端**: [Python](https://www.python.org/) with [FastAPI](https://fastapi.tiangolo.com/)
-- **UI 组件**: [Shadcn/ui](https://ui.shadcn.com/)
-- **数据库**: [ChromaDB](https://www.trychroma.com/)
+- **Frontend**: [Next.js](https://nextjs.org/) 14, [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)
+- **Backend**: [Python](https://www.python.org/) with [FastAPI](https://fastapi.tiangolo.com/)
+- **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
+- **Database**: [ChromaDB](https://www.trychroma.com/)
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 环境要求
+### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) v18+
 - [Python](https://www.python.org/) 3.8+
-- 一个正在运行的 [ChromaDB](https://www.trychroma.com/) 实例。
+- A running instance of [ChromaDB](https://www.trychroma.com/).
 
-> **提示**: 要启动本地 ChromaDB 服务器，请运行：
+> **Tip**: To start a local ChromaDB server, run:
 > `pip install chromadb`
 > `chroma run --host localhost --port 8001`
 
-### 安装与启动
+### Installation and Launch
 
-我们提供了一个一键安装脚本来简化设置过程。
+We provide a one-click setup script to simplify the process.
 
 ```bash
-# 1. 克隆仓库
+# 1. Clone the repository
 git clone https://github.com/oGYCo/ChromaDB-Dashboard.git
 cd ChromaDB-Dashboard
 
-# 2. 运行安装脚本
-# 这将安装前端和后端的依赖项
+# 2. Run the setup script
+# This will install both frontend and backend dependencies
 ./setup.sh
 
-# 3. 启动应用 (在两个不同的终端中)
+# 3. Start the application (in two separate terminals)
 
-# 启动后端 (在 backend/ 目录)
+# Start the backend (in the backend/ directory)
 cd backend
-source venv/Scripts/activate  # Windows (Git Bash): source venv/Scripts/activate
+source venv/Scripts/activate  # On Unix/macOS, use: source venv/bin/activate
 uvicorn main:app --reload --port 8080
 
-# 启动前端 (在 frontend/ 目录)
+# Start the frontend (in the frontend/ directory)
 cd frontend
 npm run dev
 ```
 
-应用启动后，在浏览器中打开 `http://localhost:3000` 即可访问仪表板。
+Once the application is running, open `http://localhost:3000` in your browser to access the dashboard.
 
-## 🤝 贡献
+## 🤝 Contributing
 
-欢迎各种形式的贡献！如果您有任何想法、建议或错误修复，请随时提出 Issue 或提交 Pull Request。
+Contributions of all forms are welcome! If you have ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request.
 
-## 📄 许可证
+## 📄 License
 
-该项目根据 [MIT 许可证](LICENSE) 授权。
+This project is licensed under the [MIT License](LICENSE).
