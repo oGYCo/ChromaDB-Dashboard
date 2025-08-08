@@ -1,36 +1,33 @@
 #!/bin/bash
 
 # ChromaDB Dashboard Setup Script
-echo echo "2. Start the backend (in another terminal):"
-echo "   cd backend"
-echo "   # Activate virtual environment first"
-echo "   uvicorn main:app --reload --port 8080"ChromaDB Dashboard Setup"
+echo "ChromaDB Dashboard Setup"
 echo "=========================="
 
 echo "📋 Prerequisites Check..."
 echo "Please ensure you have:"
 echo "  - Python 3.8+ installed"
 echo "  - Node.js 18+ installed"
-echo "  - ChromaDB server running on localhost:8001"
+echo "  - A running ChromaDB server (e.g., on localhost:8001)"
 echo ""
 
 echo "⚙️  Setting up Backend..."
 cd backend
 
-echo "Creating fresh Python virtual environment..."
-python -m venv fresh_venv
+echo "Creating Python virtual environment 'venv'..."
+python -m venv venv
 
 echo "Activating virtual environment..."
-if [[ "$OSTYPE" == "msys" ]]; then
-    source fresh_venv/Scripts/activate
+if [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]]; then
+    source venv/Scripts/activate
 else
-    source fresh_venv/bin/activate
+    source venv/bin/activate
 fi
 
 echo "Upgrading pip..."
 pip install --upgrade pip
 
-echo "Installing Python dependencies..."
+echo "Installing Python dependencies from requirements.txt..."
 pip install -r requirements.txt
 
 echo "✅ Backend setup complete!"
@@ -39,7 +36,7 @@ echo ""
 echo "⚙️  Setting up Frontend..."
 cd ../frontend
 
-echo "Installing Node.js dependencies..."
+echo "Installing Node.js dependencies with npm..."
 npm install
 
 echo "✅ Frontend setup complete!"
@@ -55,13 +52,13 @@ echo "   chroma run --host localhost --port 8001"
 echo ""
 echo "2. Start the backend (in one terminal):"
 echo "   cd backend"
-echo "   # Activate virtual environment first"
-echo "   uvicorn main:app --reload --port 8000"
+echo "   source venv/bin/activate  # On Windows use: venv\Scripts\activate"
+echo "   uvicorn main:app --reload --port 8080"
 echo ""
 echo "3. Start the frontend (in another terminal):"
 echo "   cd frontend"
 echo "   npm run dev"
 echo ""
-echo "4. Open http://localhost:3000 in your browser"
+echo "4. Open http://localhost:3000 in your browser."
 echo ""
-echo "📖 See README.md for detailed usage instructions"
+echo "📖 See README.md for more details."
